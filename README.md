@@ -1,18 +1,17 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Welcome to my RickAndMorty Api Rest Exercise
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.5/maven-plugin/reference/html/#build-image)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/3.1.5/reference/htmlsingle/index.html#using.devtools)
-* [Validation](https://docs.spring.io/spring-boot/docs/3.1.5/reference/htmlsingle/index.html#io.validation)
+This project is an implementation of use of https://rickandmortyapi.com API
 
-### Guides
-The following guides illustrate how to use some features concretely:
+This project contains get controller rest api method required. You can see swagger implementation once running.
 
-* [Validation](https://spring.io/guides/gs/validating-form-input/)
+In root folder exist an script shell "startApp.sh" in order to compile this SpringBoot3 project, create a Docker image
+and deploy it in a docker container
+
+Is possible run this script shell (Git Bash for Windows) and test it with Swagger index ui page
 
 ### Swagger
  url => http://localhost:3456/swagger-ui/index.html
+
+Docker container home page will open swagger ui home page project
